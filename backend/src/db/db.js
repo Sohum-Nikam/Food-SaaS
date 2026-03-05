@@ -9,8 +9,8 @@ function connectDB() {
          console.log("Connected to MongoDB");
      })
      .catch((err) => {
-        console.log("Not connected to MongoDB", err);
+        console.log("Not connect ed to MongoDB", err);
      })
 }
 
-module.exports = connectDB;
+module.exports = connectDB; 

@@ -4,11 +4,14 @@ const express =  require('express');
 
 const app = express(); 
 
+//Dummy route for testing 
 app.get('/', (req, res) => {
-    res.send('Hello World');
+    res.send(
+        console.log("Server is running on port 3000")
+    );
 }) 
 
 
-module.exports  = app;
+module.exports = app;
 
 
